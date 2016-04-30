@@ -20,77 +20,94 @@ void zhili()
 		Action();
 	}
 }
-void l_tai()
+void l_0tai()
 {
 	unsigned char i;
 	for(i=0;i<100;i++)
 	{
 		Action_write(1,499,150);
-//		Action_write(2,480,150);//0
 		Action_write(2,531,150);
 		Action_write(3,262,150);
 		Action_write(4,435,150);
-		Action_write(5,583,300);
+		Action_write(5,628,300);
 		Action_write(11,495,200);
-//		Action_write(12,538,200);//0
 		Action_write(12,484,200);
 		Action_write(13,774,200);
 		Action_write(14,574,200);
-		Action_write(15,536,150);
+		Action_write(15,545,270);
 		Action();
 	}
 }
-void l_mai()
+void l_0mai_1()
 {
 	unsigned char i;
 	for(i=0;i<100;i++)
 	{
-		Action_write(1,499,200);
-		Action_write(2,442,200);
-		Action_write(3,342,200);
-		Action_write(4,436,200);
-		Action_write(5,582,200);
-		Action_write(11,491,200);
+		Action_write(1,498,200);
+		Action_write(2,477,300);
+		Action_write(3,274,200);
+		Action_write(4,466,600);
+		Action_write(5,626,200);
+		Action_write(11,498,200);
 		Action_write(12,482,200);
-		Action_write(13,776,200);
-		Action_write(14,580,200);
-		Action_write(15,528,200);
+		Action_write(13,775,200);
+		Action_write(14,583-11,200);
+		Action_write(15,543+20,200);
 		Action();
 	}
 }
-//void l_mai()
+void l_0mai_2()
+{
+	unsigned char i;
+	for(i=0;i<100;i++)
+	{
+		Action_write(1,498,200);
+		Action_write(2,477,300);
+		Action_write(3,274,200);
+		Action_write(4,473,600);
+		Action_write(5,587,200);
+		Action_write(11,498,200);
+		Action_write(12,482,200);
+		Action_write(13,783,200);
+		Action_write(14,583-11,200);
+		Action_write(15,543,200);
+		Action();
+	}
+}
+//void l_mai_2()
 //{
 //	unsigned char i;
 //	for(i=0;i<100;i++)
 //	{
-//		Action_write(1,524-10,200);//+25
-//		Action_write(2,486,200);//-45
-//		Action_write(3,282,200);//+20
-//		Action_write(4,469+30,200);//+34
-//		Action_write(5,572,200);//-11
-//		Action_write(11,509,200);//-14
-//		Action_write(12,463,200);//21
-//		Action_write(13,693,200);//-81
-//		Action_write(14,670-30,200-50);//+98
-//		Action_write(15,536,200);
+//		Action_write(1,498,200);
+//		Action_write(2,477,300);
+//		Action_write(3,274,200);
+//		Action_write(4,466,600);
+//		Action_write(5,626,200);
+//		Action_write(11,498,200);
+//		Action_write(12,482,200);
+//		Action_write(13,775,200);
+//		Action_write(14,583-11,200);
+//		Action_write(15,543,200);
 //		Action();
 //	}
 //}
+
 void l_luo()
 {
 	unsigned char i;
 	for(i=0;i<100;i++)
 	{
-		Action_write(1,500,200);
-		Action_write(2,442,200);
-		Action_write(3,345,200);
-		Action_write(4,424,200);
-		Action_write(5,498,230);
-		Action_write(11,494,200);
-		Action_write(12,485,200);
-		Action_write(13,785,200);
-		Action_write(14,577,200);
-		Action_write(15,511,200);
+		Action_write(1,500-1,200);
+		Action_write(2,477,200);
+		Action_write(3,274,200);
+		Action_write(4,460,200);
+		Action_write(5,507,230);
+		Action_write(11,498,200);
+		Action_write(12,483,200);
+		Action_write(13,792,200);
+		Action_write(14,571,200);
+		Action_write(15,518,200);
 		Action();
 	}
 }
@@ -100,92 +117,93 @@ void r_tai()
 	unsigned char i;
 	for(i=0;i<100;i++)
 	{
-		Action_write(1,497,200);
-		Action_write(2,479,200);
-		Action_write(3,303,200);
-		Action_write(4,423,200);
-		Action_write(5,483,300);
-		Action_write(11,492,200);
-		Action_write(12,493,200);
-		Action_write(13,783,200);
-		Action_write(14,585,200);
-		Action_write(15,422,340);
+		Action_write(1,504,200);
+		Action_write(2,435,200);
+		Action_write(3,272,200);
+		Action_write(4,467,200);
+		Action_write(5,478,330);
+		Action_write(11,498,200);
+		Action_write(12,530,200);
+		Action_write(13,790,200);
+		Action_write(14,569,200);
+		Action_write(15,417,300);
 		Action();
 	}
 }
-//void r_tai()
-//{
-//	unsigned char i;
-//	for(i=0;i<100;i++)
-//	{
-//		Action_write(1,497,200);
-//		Action_write(2,479,200);
-//		Action_write(3,303,200);
-//		Action_write(4,423,200);
-//		Action_write(5,483,300);
-//		Action_write(11,492,200);
-//		Action_write(12,493,200);
-//		Action_write(13,783,200);
-//		Action_write(14,585,200);
-//		Action_write(15,422,240+80);
-//		Action();
-//	}
-//}
 
-void r_mai()
+void r_mai1()
 {
 	unsigned char i;
 	for(i=0;i<100;i++)
 	{
-		Action_write(1,499,200);
-		Action_write(2,498,200);
-		Action_write(3,356,200);
-		Action_write(4,352,200);
-		Action_write(5,480,200);
-		Action_write(11,491,200);
-		Action_write(12,528,200);
-		Action_write(13,783,200);
-		Action_write(14,545+20,200+40);
-		Action_write(15,426,200+20);
+		Action_write(1,534,150-20);
+		Action_write(2,471,150-20);
+		Action_write(3,321,150-20);
+		Action_write(4,420,150-20);
+		Action_write(5,486-20,150-20);
+		Action_write(11,540,150-20);
+		Action_write(12,560,150-20);
+		Action_write(13,725,100);
+		Action_write(14,560,150-20);
+		Action_write(15,418,150-20);
 		Action();
 	}
 }
-//void l_luo()
-//{
-//	unsigned char i;
-//	for(i=0;i<100;i++)
-//	{
-//		Action_write(1,525,200);
-//		Action_write(2,454,200);
-//		Action_write(3,280,200);
-//		Action_write(4,467,200);
-//		Action_write(5,511,200);
-//		Action_write(11,510,200);
-//		Action_write(12,495,230);
-//		Action_write(13,690,200);
-//		Action_write(14,640,200);
-//		Action_write(15,521,200);
-//		Action();
-//	}
-//}
-//void r_tai()
-//{
-//	unsigned char i;
-//	for(i=0;i<100;i++)
-//	{
-//		Action_write(1,501,200);
-//		Action_write(2,438,200);
-//		Action_write(3,346,200);
-//		Action_write(4,422,200);
-//		Action_write(5,482-30,200);
-//		Action_write(11,490,200);
-//		Action_write(12,499,200);
-//		Action_write(13,783,200);
-//		Action_write(14,576,200);
-//		Action_write(15,445,240);
-//		Action();
-//	}
-//}
+
+void r_mai2()
+{
+	unsigned char i;
+	for(i=0;i<100;i++)
+	{
+		Action_write(1,534,200);
+		Action_write(2,471,200);
+		Action_write(3,321,200);
+		Action_write(4,420,200);
+		Action_write(5,486,200);
+		Action_write(11,540,200);
+		Action_write(12,560,200);
+		Action_write(13,725,200);
+		Action_write(14,560,200);
+		Action_write(15,443,200);
+		Action();
+	}
+}
+void r_luo()
+{
+	unsigned char i;
+	for(i=0;i<100;i++)
+	{
+		Action_write(1,537,200);
+		Action_write(2,468,200);
+		Action_write(3,321,200);
+		Action_write(4,398,200);
+		Action_write(5,500,200);
+		Action_write(11,530,200);
+		Action_write(12,559,230);
+		Action_write(13,725,200);
+		Action_write(14,588,200);
+		Action_write(15,509,200);
+		Action();
+	}
+}
+void l_tai()
+{
+	unsigned char i;
+	for(i=0;i<100;i++)
+	{
+		Action_write(1,536,150);
+		Action_write(2,468,150);
+		Action_write(3,321,150);
+		Action_write(4,398,150);
+		Action_write(5,617,300);
+		Action_write(11,526,200);
+		Action_write(12,558,200);
+		Action_write(13,722,200);
+		Action_write(14,588,200);
+		Action_write(15,536,270);
+		Action();
+	}
+}
 //void r_mai()
 //{
 //	unsigned char i;

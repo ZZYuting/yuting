@@ -26,17 +26,18 @@ int main(void)
 	Key_GPIO_Config();
 	LED_GPIO_Config();
 	TIM3_GPIO_Config();
+	zhili();
+	l_0tai();
 	while(1)
 	{
-		zhili();
-		l_tai();
-		l_mai();
+		l_0mai_1();
+		l_0mai_2();
 		l_luo();
-
 		r_tai();
-		r_mai();
-//		r_mai1();
-		while(1);
+		r_mai1();
+		r_mai2();
+		r_luo();
+		l_tai();
 	}
 }
 void jiance(void)
